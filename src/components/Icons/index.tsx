@@ -52,8 +52,6 @@ export const IconClose = () => {
   );
 };
 
-import React from "react";
-
 export const IconLogo = ({ className = "", ...props }) => {
   return (
     <svg
