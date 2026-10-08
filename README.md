@@ -1,67 +1,76 @@
-![Descricao da sua imagem](thumb.png)
+# OurBank
 
-# Anybank App
+Front-End de um aplicativo bancário desenvolvido em React, com uma interface moderna para gerenciamento de conta, transações e informações financeiras.
 
-Aplicação de simulação bancária para gerenciamento de transações financeiras, focada no aprendizado de conceitos de autenticação e uso do Supabase como backend. A interface permite ao usuário consultar o extrato com histórico de transações, e realizar novas transações de forma prática e intuitiva.
+## Sobre o projeto
 
-## 🔨 Funcionalidades do projeto
+O OurBank foi desenvolvido como projeto de estudo e prática de desenvolvimento Front-End, simulando a interface de um aplicativo de banco digital.
 
-A aplicação permite:
+O projeto busca trabalhar conceitos de componentes React, organização de páginas, navegação e construção de interfaces responsivas.
 
-- Cadastrar novos usuários com autenticação via Supabase.
-- Cadastrar transações bancárias.
-- Visualizar o histórico de transações por tipo e valor.
+## Funcionalidades
 
-## ✔️ Técnicas e tecnologias utilizadas
+* Visualização de informações da conta
+* Consulta de saldo
+* Área de transações
+* Transferências
+* Investimentos
+* Interface responsiva
+* Navegação entre páginas
 
-As principais tecnologias e técnicas aplicadas no projeto são:
+## Tecnologias utilizadas
 
-- **Supabase**: Backend para autenticação e armazenamento dos dados de usuários e transações.
-- **React com TypeScript**: Criação da interface de usuário e lógica do aplicativo.
-- **React Context API**: Gerenciamento de estados globais para autenticação.
-- **React Router**: Navegação entre as diferentes páginas da aplicação.
-- **Hooks personalizados**: Implementação de lógica reutilizável e controle de autenticação.
+* React
+* JavaScript
+* HTML5
+* CSS3
+* React Router
+* Vite
 
-Este projeto aplica princípios de Arquitetura Limpa para promover uma estrutura modular, escalável e fácil de manter. Abaixo estão alguns dos conceitos utilizados para organizar a lógica de negócios, a manipulação de dados e a interface de forma coesa e adaptável:
+## Instalação
 
-- Separação de camadas: organiza o projeto em camadas distintas para facilitar a manutenção e entendimento do fluxo.
-- Injeção de dependências: uso de interfaces para definir contratos entre camadas, permitindo trocas de tecnologias sem modificar a lógica central.
-- Use Cases: cada caso de uso encapsula uma ação específica, mantendo a lógica de negócios isolada e coesa.
-- Entidades e modelos de domínio: entidades como `IUser` e `ITransaction` representam dados centrais com regras específicas.
-- Camada de infraestrutura separada: acesso a dados e integração com o Supabase são isolados, preservando a lógica de negócio.
+Clone o repositório:
 
-![Descricao da sua imagem](clean-arch.png)
+```bash
+git clone https://github.com/Andre-StudioNerd/OurBank.git
+```
 
-## 📁 Acesso ao projeto
+Acesse a pasta:
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial) ou [baixá-lo](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/archive/refs/heads/projeto-inicial.zip).
+```bash
+cd OurBank
+```
 
-## 🛠️ Abrir e rodar o projeto
+Instale as dependências:
 
-![Descricao da sua imagem](screenshot.png)
+```bash
+npm install
+```
 
-Para rodar o projeto localmente, siga os passos:
+Execute o projeto:
 
-1. Instale as dependências do projeto:
+```bash
+npm run dev
+```
 
-   ```bash
-   npm install
-   ```
+Para gerar a versão de produção:
 
-2. Configure o [Supabase](https://supabase.com/dashboard/projects) e crie um arquivo `.env.local` com as chaves de acesso:
+```bash
+npm run build
+```
 
-   ```plaintext
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_KEY=your_supabase_key
-   ```
+## Objetivo
 
-3. Execute o projeto:
-   ```bash
-   npm run dev
-   ```
+Praticar o desenvolvimento de aplicações Front-End com React, trabalhando componentes, rotas, organização do projeto e criação de uma interface semelhante à de um aplicativo bancário.
 
-Agora você pode acessar a aplicação em `http://localhost:5173/`.
+## Autor
 
-## 📚 Mais informações do curso
+**André Luís Fernandes**
 
-Interessado em aprender mais? Confira o curso completo para desenvolver esta aplicação e entender os conceitos de forma prática!
+Desenvolvedor Web / Front-End
+
+GitHub: Andre-StudioNerd
+
+## Licença
+
+Este projeto foi desenvolvido para fins de estudo e portfólio.
